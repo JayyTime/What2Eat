@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/bootstrap/dist/css/darkly.min.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/darkly.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/bootstrap/dist/css/Darkly.min.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/Darkly.css"
+    ]
+  }
+]
