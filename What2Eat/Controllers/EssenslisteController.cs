@@ -16,7 +16,7 @@ namespace What2Eat.Controllers
             List<EssenslisteModel> mahlzeiten = new List<EssenslisteModel>();
             mahlzeiten.Add(new EssenslisteModel { Id = 1, Name = "Croque", Janic = true, Oma = true, Opa = true });
             mahlzeiten.Add(new EssenslisteModel { Id = 2, Name = "Burger", Janic = true, Oma = true, Opa = true });
-            mahlzeiten.Add(new EssenslisteModel { Id = 3, Name = "Chinesisch", Janic = true, Oma = true, Opa = true });
+            mahlzeiten.Add(new EssenslisteModel { Id = 3, Name = "Chinesisch", Janic = false, Oma = true, Opa = true });
 
             return View(mahlzeiten);
         }
