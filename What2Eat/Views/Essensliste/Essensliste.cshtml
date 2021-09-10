@@ -1,10 +1,17 @@
 ﻿@model IEnumerable<What2Eat.Models.EssenslisteModel>
+@*@model What2Eat.Models.EssenslisteModel*@
 
 @{
     ViewBag.Title = "Essensliste";
 }
 
 <h1>Essensliste</h1>
+@using (Html.BeginForm("Essensliste", "Essensliste", FormMethod.Post))
+{
+    @*@Html.TextBoxFor(model => model. , new { @class = "input-medium search-query", @placeholder = "Suchen" })*@
+    @Html.TextBoxFor(model => model.Suchwert)
+    <input type="submit" id="btnSubmitSearchString" value="Submit" />
+}
 
 <table class="table">
     <tr>
@@ -17,13 +24,13 @@
 
     @foreach (var item in Model)
     {
-<tr>
-    <td>@Html.DisplayFor(modelItem => item.Id)</td>
-    <td>@Html.DisplayFor(modelItem => item.Name)</td>
-    <td>@Html.DisplayFor(modelItem => item.Janic)</td>
-    <td>@Html.DisplayFor(modelItem => item.Oma)</td>
-    <td>@Html.DisplayFor(modelItem => item.Opa)</td>
-</tr>
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Janic)</td>
+            <td>@Html.DisplayFor(modelItem => item.Oma)</td>
+            <td>@Html.DisplayFor(modelItem => item.Opa)</td>
+        </tr>
     }
 
 </table>

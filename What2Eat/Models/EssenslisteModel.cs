@@ -11,5 +11,7 @@
         public bool Oma { get; set; }
 
         public bool Opa { get; set; }
+
+        public string Suchwert { get; set; }
     }
 }
