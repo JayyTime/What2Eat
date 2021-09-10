@@ -50,7 +50,7 @@ namespace What2Eat
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=TodoListe}/{action=TodoListe}/{id?}");
             });
         }
     }

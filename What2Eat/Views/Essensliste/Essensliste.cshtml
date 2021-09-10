@@ -5,13 +5,22 @@
     ViewBag.Title = "Essensliste";
 }
 
-<h1>Essensliste</h1>
-@using (Html.BeginForm("Essensliste", "Essensliste", FormMethod.Post))
-{
-    @*@Html.TextBoxFor(model => model. , new { @class = "input-medium search-query", @placeholder = "Suchen" })*@
-    @Html.TextBoxFor(model => model.Suchwert)
-    <input type="submit" id="btnSubmitSearchString" value="Submit" />
-}
+@*Header für jede View*@
+<div class="text-center">
+    <h1 class="display-4"><i class="fas fa-utensils"></i> Essensliste <i class="fas fa-utensils"></i></h1>
+    <br />
+    <br />
+</div>
+@*Header Ende*@
+
+<br />
+<br />
+<form action="" class="">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Essen" />
+        <button type="submit" class="input-group-text btn-dark"> <i class="bi bi-search me-2"></i> Suchen</button>
+    </div>
+</form>
 
 <table class="table">
     <tr>

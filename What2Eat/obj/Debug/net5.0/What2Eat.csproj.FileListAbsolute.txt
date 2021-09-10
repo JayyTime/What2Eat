@@ -401,3 +401,5 @@ D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\n
 D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\net5.0\ref\What2Eat.dll
 D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\net5.0\What2Eat.pdb
 D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\net5.0\What2Eat.genruntimeconfig.cache
+D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\net5.0\Razor\Views\TodoListe\TodoListe.cshtml.g.cs
+D:\PRODUKTIV\PROGRAMMIEREN\VisualStudio19\Projekte\What2Eat\What2Eat\obj\Debug\net5.0\What2Eat.csproj.AssemblyReference.cache

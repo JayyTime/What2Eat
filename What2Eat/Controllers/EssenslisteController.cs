@@ -13,14 +13,14 @@ namespace What2Eat.Controllers
             return View();
         }
 
-        public IActionResult Suche()
-        {
-            Suchwert = new EssenslisteModel().Suchwert;
+        //public IActionResult Suche()
+        //{
+        //    Suchwert = new EssenslisteModel().Suchwert;
 
-            return View(Suchwert);
-        }
+        //    return View(Suchwert);
+        //}
 
-        public ActionResult Essensliste()
+        public IActionResult Essensliste()
         {
             List<EssenslisteModel> mahlzeiten = new List<EssenslisteModel>();
             mahlzeiten.Add(new EssenslisteModel { Id = 1, Name = "Croque", Janic = true, Oma = true, Opa = true });
